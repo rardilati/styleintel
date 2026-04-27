@@ -1,0 +1,29 @@
+{
+  "name": "styleintel-backend",
+  "version": "1.0.0",
+  "description": "API backend para análisis de tendencias de moda asiática (StyleIntel)",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "fashion",
+    "saas"
+  ],
+  "author": "Raquel",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
