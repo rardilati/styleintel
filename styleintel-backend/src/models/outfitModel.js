@@ -1,7 +1,7 @@
 const db = require('../db/database');
 
 const createTable = () => {
-  const query = `
+  db.run(`
     CREATE TABLE IF NOT EXISTS outfits (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       title TEXT,
@@ -11,9 +11,7 @@ const createTable = () => {
       affiliate_link TEXT,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     )
-  `;
-
-  db.run(query);
+  `);
 };
 
 module.exports = { createTable };

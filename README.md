@@ -10,11 +10,11 @@ Muchas tiendas online y creadores de contenido no saben qué tendencias de moda 
 StyleIntel recopila y analiza datos de outfits y estilos para mostrar tendencias emergentes, facilitando la toma de decisiones en moda y e-commerce.
 
 ## Caracteristicas
-API REST de tendencias de moda
-Filtro por estilo (korean, japanese, chinese, streetwear…)
-Base de datos estructurada de outfits
-Preparado para dashboard analítico
-Sistema escalable para integración de IA y scraping
+- API REST de tendencias de moda
+- Filtro por estilo (korean, japanese, chinese, streetwear…)
+- Base de datos estructurada de outfits
+- Preparado para dashboard analítico
+- Sistema escalable para integración de IA y scraping
 
 ## Tecnologías
 - Backend: Node.js + Express
@@ -23,11 +23,11 @@ Sistema escalable para integración de IA y scraping
 - Futuro frontend: React
 
 ## Roadmap
-Dashboard en React con gráficas (KPIs, evolución de tendencias)
-Sistema de usuarios (login y autenticación)
-Scraping de tendencias desde plataformas externas
-Recomendaciones con IA (visión por imagen)
-Landing page tipo SaaS
+- Dashboard en React con gráficas (KPIs, evolución de tendencias)
+- Sistema de usuarios (login y autenticación)
+- Scraping de tendencias desde plataformas externas
+- Recomendaciones con IA (visión por imagen)
+- Landing page tipo SaaS
 
 ##  Estado del proyecto
 En desarrollo — MVP backend funcional con API y base de datos.
