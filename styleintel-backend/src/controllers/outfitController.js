@@ -49,16 +49,18 @@ const getTrends = (req, res) => {
   `;
 
   db.all(query, [], (err, rows) => {
-    if (err) return res.status(500).json({ error: err.message });
+  if (err) return res.status(500).json({ error: err.message });
 
-    // convertir a objeto tipo { korean: 3 }
-    const result = {};
-    rows.forEach(row => {
-      result[row.style] = row.total;
-    });
+  // evitar crash si rows es undefined
+  if (!rows) return res.json({});
 
-    res.json(result);
+  const result = {};
+  rows.forEach(row => {
+    result[row.style] = row.total;
   });
+
+  res.json(result);
+});
 };
 
 

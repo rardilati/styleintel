@@ -13,6 +13,8 @@ app.use(express.json());
 const { createTable } = require('./src/models/outfitModel');
 createTable();
 
+
+
 // rutas
 const outfitRoutes = require('./src/routes/outfitRoutes');
 app.use('/api/outfits', outfitRoutes);
